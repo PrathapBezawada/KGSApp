@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<videos>
+    <video>
+        <title>test1</title>
+        <lenght>5.00</lenght>
+        <thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzOHSgee0679xlDTUC8eo2VzmKybv_jUlmKLvKefmpjKQirqwt1</thumbnail>
+        <videourl>http://c3020902.r2.cf0.rackcdn.com/47B7D38F-380E-AA39-1813-DFF16D1E3940.mp4</videourl>
+    </video>
+      <video>
+        <title>test2</title>
+        <lenght>5.00</lenght>
+        <thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzOHSgee0679xlDTUC8eo2VzmKybv_jUlmKLvKefmpjKQirqwt1</thumbnail>
+        <videourl>http://c3020902.r2.cf0.rackcdn.com/47B7D38F-380E-AA39-1813-DFF16D1E3940.mp4</videourl>
+    </video>
+       <video>
+        <title>test3</title>
+        <lenght>5.00</lenght>
+        <thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzOHSgee0679xlDTUC8eo2VzmKybv_jUlmKLvKefmpjKQirqwt1</thumbnail>
+        <videourl>http://c3020902.r2.cf0.rackcdn.com/47B7D38F-380E-AA39-1813-DFF16D1E3940.mp4</videourl>
+    </video>
+       <video>
+        <title>test4</title>
+        <lenght>5.00</lenght>
+        <thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzOHSgee0679xlDTUC8eo2VzmKybv_jUlmKLvKefmpjKQirqwt1</thumbnail>
+        <videourl>http://c3020902.r2.cf0.rackcdn.com/47B7D38F-380E-AA39-1813-DFF16D1E3940.mp4</videourl>
+    </video>
+       <video>
+        <title>test1</title>
+        <lenght>5.00</lenght>
+        <thumbnail>https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSzOHSgee0679xlDTUC8eo2VzmKybv_jUlmKLvKefmpjKQirqwt1</thumbnail>
+        <videourl>http://c3020902.r2.cf0.rackcdn.com/47B7D38F-380E-AA39-1813-DFF16D1E3940.mp4</videourl>
+    </video>
+</videos>

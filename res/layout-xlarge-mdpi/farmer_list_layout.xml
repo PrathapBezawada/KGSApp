@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="#e5eeff">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#254117" >
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dp"
+            android:text=" Farmers List"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@+id/addFarmer"
+            android:onClick="onRefresh"
+            android:background="@drawable/refresh" />
+
+        <Button
+            android:id="@+id/addFarmer"
+            android:layout_width="wrap_content"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:onClick="addFarmer" 
+            android:background="@drawable/new_farmer"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="55dp"
+        android:background="#a0f5b2"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="100dp"
+            android:text="First Name"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <!--
+             <TextView
+            android:id="@+id/label3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="100dp"
+            android:text="Last Name"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+        -->
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            android:text="Mobile"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/label5"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Village"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/label6"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Recommendation"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="70dp"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/label7"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="Farms"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/label8"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Maps"
+            android:textColor="#000000"
+            android:textSize="17sp"
+            android:layout_marginLeft="70dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="5dp"
+        android:cacheColorHint="#00000000"
+        android:divider="#0B4C5F"
+        android:dividerHeight="1dp" />
+
+</LinearLayout>

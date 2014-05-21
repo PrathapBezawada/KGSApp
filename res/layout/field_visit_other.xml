@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e5eeff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#254117" >
+
+        <TextView
+            android:id="@+id/label0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text=" New Field Visit"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <Button
+                android:id="@+id/upload"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/save"
+                android:onClick="uploadRecord" />
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/cancel"
+                android:onClick="closeScreen" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/column1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/label1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Visit Type              :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <TextView
+                        android:id="@+id/visitTypeSpinner"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/dropdown_bg"
+                        android:paddingLeft="8dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/label1"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Purpose                  :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <Spinner
+                        android:id="@+id/purposeTypeSpinner"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/dropdown_bg"
+                        android:entries="@array/farmer_field_visit_array"
+                        android:paddingLeft="5dp"
+                        android:singleLine="true"
+                        android:typeface="serif" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/label3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="State                    : "
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <EditText
+                        android:id="@+id/edittext_state"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/complete"
+                        android:maxLength="30"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:text="Karnataka"
+                        android:editable="false"
+                        android:typeface="serif" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/label7"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:gravity="center_vertical"
+                        android:text="District                :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <Spinner
+                        android:id="@+id/spinner_district"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/dropdown_bg"
+                        android:paddingLeft="10dp"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/label3"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Taluk                    :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <Spinner
+                        android:id="@+id/spinner_taluk"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/dropdown_bg"
+                        android:maxLength="30"
+                        android:paddingLeft="10dp"
+                        android:singleLine="true"
+                        android:typeface="serif" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/label2"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Hobli                      :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <Spinner
+                        android:id="@+id/spinner_hobli"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/dropdown_bg"
+                        android:editable="false"
+                        android:maxLength="30"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="true"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp" >
+
+                    <TextView
+                        android:id="@+id/label12"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:text="Village                   :"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:typeface="serif" />
+
+                    <EditText
+                        android:id="@+id/edit_village"
+                        android:layout_width="200dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentRight="true"
+                        android:background="@drawable/complete"
+                        android:maxLength="30"
+                        android:paddingLeft="10dp"
+                        android:paddingTop="7dp"
+                        android:singleLine="true"
+                        android:typeface="serif" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/column3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/label13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:text="Field Name"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:typeface="serif"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp" >
+
+                    <LinearLayout
+                        android:layout_width="150dp"
+                        android:layout_height="120dp"
+                        android:background="@drawable/image_bg"
+                        android:orientation="horizontal" >
+
+                        <ImageView
+                            android:id="@+id/takePhoto"
+                            android:layout_width="130dp"
+                            android:layout_height="90dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:src="@drawable/no_image" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/editText_Userlabel"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="20dp"
+                            android:text="User :"
+                            android:textColor="#000000"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+
+                        <TextView
+                            android:id="@+id/editText_User"
+                            android:layout_width="200dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="30dp"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="20dp"
+                            android:background="@drawable/complete"
+                            android:paddingLeft="10dp"
+                            android:paddingTop="5dp"
+                            android:textStyle="bold"
+                            android:typeface="serif" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/label4"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Observation"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:id="@+id/observation"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/complete_1"
+                    android:gravity="top"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="15dp"
+                    android:singleLine="false"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/label3"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Comments"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+                <EditText
+                    android:id="@+id/editText_comments"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/complete_1"
+                    android:gravity="top"
+                    android:paddingLeft="15dp"
+                    android:paddingTop="15dp"
+                    android:singleLine="false"
+                    android:typeface="serif" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">K G S</string>
+    <string name="action_settings">Settings</string>
+    <string name="message_subject">Android device log</string>
+    <string name="acquiring_log_progress_dialog_message">Acquiring log from the system &#8230;</string>
+    <string name="chooser_title">"Select an application to send the log"</string>
+    <string name="failed_to_get_log_message">"Failed to get the log from the system."</string>
+    <string name="main_dialog_text">"This application will attempt to collect the device log.
+The collected log will be sent using an application of your choice.
+You also will have an opportunity to see and modify the data being sent."</string>
+    <string name="device_info_fmt">Device model: <xliff:g id="device_model">%s</xliff:g>\n
+Firmware version: <xliff:g id="firmware_revision">%s</xliff:g>\n
+Kernel version: <xliff:g id="kernel_version">%s</xliff:g>\n
+Build number: <xliff:g id="build_number">%s</xliff:g>\n</string>
+
+    <string-array name="language_array">
+        <item>English</item>
+        <item>Kanada (ಕಾನಡ)</item>
+    </string-array>
+    <string-array name="season_array">
+        <item>Select Season</item>
+        <item>Kharif</item>
+        <item>Rabi</item>
+    </string-array>
+    <string-array name="seedsource_array">
+        <item>Select Seed Source</item>
+        <item>Last season stored</item>
+        <item>Government</item>
+        <item>Private seed dealer</item>
+        <item>NA</item>
+    </string-array>
+    <string-array name="caste_array">
+        <item>Select Caste</item>
+        <item>General</item>
+        <item>SC</item>
+        <item>ST</item>
+        <item>OBC</item>
+    </string-array>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string-array name="training_array">
+        <item>Select Training level</item>
+        <item>District level</item>
+        <item>Taluk level</item>
+        <item>Hobli level</item>
+        <item>Village level</item>
+        <item>Institutional level</item>
+    </string-array>
+    <string-array name="year_array">
+        <item>Select Year</item>
+        <item>1990</item>
+        <item>1991</item>
+        <item>1992</item>
+        <item>1993</item>
+        <item>1994</item>
+        <item>1995</item>
+        <item>1996</item>
+        <item>1997</item>
+        <item>1998</item>
+        <item>1999</item>
+        <item>2000</item>
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+        <item>2006</item>
+        <item>2007</item>
+        <item>2008</item>
+        <item>2009</item>
+        <item>2010</item>
+        <item>2011</item>
+        <item>2012</item>
+        <item>2013</item>
+        <item>2014</item>
+        <item>2015</item>
+        <item>2016</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+    </string-array>
+
+    <!-- Language Text For Login Screen -->
+    <string name="loginscreen_user_name_text_kanada">ಬಳಕೆದಾರ ಹೆಸರು</string>
+    <string name="loginscreen_user_name_text_english">User Name</string>
+    <string name="loginscreen_password_text_kanada">ಪಾಸ್ವರ್ಡ್</string>
+    <string name="loginscreen_password_text_english">Password</string>
+    <string name="loginscreen_language_text_kanada">ಭಾಷೆ</string>
+    <string name="loginscreen_language_text_english">language</string>
+    <string name="loginscreen_login_button_kanada">ಲಾಗಿನ್</string>
+    <string name="loginscreen_login_button_english">login</string>
+    <string name="loginscreen_cancel_button_kanada">ರದ್ದು</string>
+    <string name="loginscreen_cancel_button_english">cancel</string>
+    <string name="loginscreen_emailid_hint_text_kanada">ಇಮೇಲ್ ನಮೂದಿಸಿ</string>
+    <string name="loginscreen_emailid_hint_text_english">Enter Email Id</string>
+    <!-- End Language Text For Login Screen -->
+
+
+    <!-- Tab Bar Text -->
+    <string name="tab_item_home_text_kanada">ಹುಡುಕಿ</string>
+    <string name="tab_item_farmers_text_kanada">ರೈತರು</string>
+    <string name="tab_item_package_of_practices_text_kanada">ಉತ್ಪಾದನೆ ಪ್ಯಾಕೇಜುಗಳನ್ನು</string>
+    <string name="tab_item_package_of_soilmaps_text_kanada">ಮಣ್ಣಿನ ನಕ್ಷೆ</string>
+    <string name="tab_item_home_text_english">Search</string>
+    <string name="tab_item_farmers_text_english">Farmers</string>
+    <string name="tab_item_package_of_practices_text_english">Production Packages</string>
+    <string name="tab_item_package_of_soilmaps_text_english">Soil Maps</string>
+    <string name="tab_item_package_of_FieldVisit_text_english">Field Visit</string>
+    <!-- Tab Header Button Text -->
+    <string name="tab_header_button_text_sync_kanada"></string>
+    <string name="tab_header_button_text_search_kanada">ಹುಡುಕಿ</string>
+    <string name="tab_header_button_text_home_kanada">ನಿವಾಸ</string>
+    <string name="tab_header_button_text_aboutus_kanada">ನಮ್ಮ ಬಗ್ಗೆ</string>
+    <string name="tab_header_button_text_setting_kanada">ಸ್ಥಾಪನೆ</string>
+    <string name="tab_header_button_text_logout_kanada">ಲಾಗ್ಔಟ್</string>
+    <string name="tab_header_label_text_user_kanada">ಬಳಕೆದಾರ-</string>
+    <string name="tab_header_label_text_district_kanada">ಜಿಲ್ಲೆ-</string>
+    <string name="tab_header_label_text_taluk_kanada">ತಾಲ್ಲೂಕು-</string>
+    <string name="tab_header_label_text_village_kanada">ಗ್ರಾಮ-</string>
+    <string name="tab_header_button_text_sync_english"></string>
+    <string name="tab_header_button_text_search_english">Search</string>
+    <string name="tab_header_button_text_home_english">Home</string>
+    <string name="tab_header_button_text_aboutus_english">About US</string>
+    <string name="tab_header_button_text_setting_english">Setting</string>
+    <string name="tab_header_button_text_logout_english">Logout</string>
+    <string name="tab_header_label_text_user_english">USER-</string>
+    <string name="tab_header_label_text_district_english">DISTRICT-</string>
+    <string name="tab_header_label_text_taluk_english">TALUK-</string>
+    <string name="tab_header_label_text_village_english">VILLAGE-</string>
+    <!--  -->
+    <!-- Farmer List Label -->
+    <string name="farmer_list_label1_kanada">ರೈತರು ಪಟ್ಟಿ</string>
+    <string name="farmer_list_label2_kanada">ಫಾರ್ಮರ್ ಹೆಸರು</string>
+    <string name="farmer_list_label3_kanada">ಕೊನೆಯ ಹೆಸರು</string>
+    <string name="farmer_list_label4_kanada">ಚರ</string>
+    <string name="farmer_list_label5_kanada">ಗ್ರಾಮ</string>
+    <string name="farmer_list_label6_kanada">ಶಿಫಾರಸುಗಳು</string>
+    <string name="farmer_list_label7_kanada">ಕೃಷಿ</string>
+    <string name="farmer_list_button_addfarmer_kanada"></string>
+    <string name="farmer_list_button_refresh_kanada"></string>
+    <string name="farmer_list_button_refresh_enlish"></string>
+    <string name="farmer_list_item_button_viewfield_kanada"></string>
+    <string name="farmer_list_label1_english">Farmers List</string>
+    <string name="farmer_list_label2_english">Farmer Name</string>
+    <string name="farmer_list_label3_english">Last Name</string>
+    <string name="farmer_list_label4_english">Mobile</string>
+    <string name="farmer_list_label5_english">Village</string>
+    <string name="farmer_list_label6_english">Recommendations</string>
+    <string name="farmer_list_label7_english">Farms</string>
+    <string name="farmer_list_button_addfarmer_english"></string>
+    <string name="farmer_list_item_button_viewfield_english"></string>
+    <!-- Field List Lebels -->
+    <string name="field_list_label1_kanada">ಆಫ್ ಕೇಂದ್ರಗಳು ಪಟ್ಟಿ</string>
+    <string name="field_list_label2_kanada">ಫಾರ್ಮ್ ಹೆಸರು</string>
+    <string name="field_list_label3_kanada">#ಜಾಗ</string>
+    <string name="field_list_label4_kanada">ಬೆಳೆ ಹೆಸರು</string>
+    <string name="field_list_label5_kanada">ಗ್ರಾಮ</string>
+    <string name="field_list_label6_kanada">ಶಿಫಾರಸುಗಳು</string>
+    <string name="field_list_label7_kanada">ನಕ್ಷೆಗಳು</string>
+    <string name="field_list_label8_kanada">ಬಳಕೆಯಾಗುವ ರಸಗೊಬ್ಬರಗಳ(Kgs)</string>
+    <string name="field_list_button_addfield_kanada"></string>
+    <string name="field_list_item_soilmapping_kanada"></string>
+    <string name="field_list_label1_english">Farms List of</string>
+    <string name="field_list_label2_english">Farm Name </string>
+    <string name="field_list_label3_english"># Of Fields</string>
+    <string name="field_list_label4_english">Crop Name</string>
+    <string name="field_list_label5_english">Village</string>
+    <string name="field_list_label6_english">Recommendations</string>
+    <string name="field_list_label7_english">Maps</string>
+    <string name="field_list_label8_english">Fertilizers Used(Kgs)</string>
+    <string name="field_list_button_addfield_english"></string>
+    <string name="field_list_item_soilmapping_english"></string>
+    <!-- Farmer Detail Labels -->
+
+    <string name="farmer_detail_button_editfarmer_kanada"></string>
+    <string name="farmer_detail_button_fields_kanada"></string>
+    <string name="farmer_detail_button_AddField_kanada"></string>
+    <string name="farmer_detail_label0_add_kanada">ಹೊಸ ಫಾರ್ಮರ್ ನೋಂದಣಿ ಫಾರ್ಮ್</string>
+    <string name="farmer_detail_label0_detail_kanada">ಫಾರ್ಮರ್ ವಿವರಗಳು</string>
+    <string name="farmer_detail_label1_kanada">ಮೊದಲ ಹೆಸರು(*)</string>
+    <string name="farmer_detail_label2_kanada">ಕೊನೆಯ ಹೆಸರು(*)</string>
+    <string name="farmer_detail_label3_kanada">ತಂದೆ ಹೆಸರು</string>
+    <string name="farmer_detail_label4_kanada">#ಚರ(*)</string>
+    <string name="farmer_detail_label5_kanada">#ದೂರವಾಣಿ</string>
+    <string name="farmer_detail_label6_kanada">ಜಾತಿ</string>
+    <string name="farmer_detail_label7_kanada">ಲಿಂಗ</string>
+    <string name="farmer_detail_label8_kanada">ಜಿಲ್ಲೆ</string>
+    <string name="farmer_detail_label9_kanada">ತಾಲ್ಲೂಕು(*)</string>
+    <string name="farmer_detail_label10_kanada">ಹೋಬಳ(*)ಿ</string>
+    <string name="farmer_detail_label11_kanada">ಗ್ರಾಮ(*)</string>
+    <string name="farmer_detail_label12_kanada"></string>
+    <string name="farmer_detail_label13_kanada">ಕ್ಷೇತ್ರ ಹೆಸರು</string>
+    <string name="farmer_detail_label14_kanada">ಪಒಟ್ಟು ಫಾರ್ಮ್ ಪ್ರದೇಶ (ಎಕರೆ)</string>
+    <string name="farmer_detail_label15_kanada">ರೈನ್ ಫೆಡ್ (ಎಕರೆ)</string>
+    <string name="farmer_detail_label16_kanada">(ಎಕರೆ) ನೀರಾವರಿ</string>
+    <string name="farmer_detail_label17_kanada">ತೋಟ (ಎಕರೆ)</string>
+    <string name="farmer_detail_label18_kanada">ಪಾಳುಭೂಮಿ (ಎಕರೆ)</string>
+    <string name="farmer_detail_label19_kanada">ಇಲ್ಲ ಸಮೀಕ್ಷೆ</string>
+    <string name="farmer_detail_button_editfarmer_english"></string>
+    <string name="farmer_detail_button_fields_english"></string>
+    <string name="farmer_detail_button_AddField_english"></string>
+    <string name="farmer_detail_label0_add_english">New Farmer Registration Form</string>
+    <string name="farmer_detail_label0_detail_english">Farmer Details</string>
+    <string name="farmer_detail_label1_english">First Name(*)</string>
+    <string name="farmer_detail_label2_english">Last Name(*)</string>
+    <string name="farmer_detail_label3_english">Father Name</string>
+    <string name="farmer_detail_label4_english">#Mobile(*)</string>
+    <string name="farmer_detail_label5_english">#Telephone</string>
+    <string name="farmer_detail_label6_english">Caste</string>
+    <string name="farmer_detail_label7_english">Gender</string>
+    <string name="farmer_detail_label8_english">District</string>
+    <string name="farmer_detail_label9_english">Taluk(*)</string>
+    <string name="farmer_detail_label10_english">Hobli(*)</string>
+    <string name="farmer_detail_label11_english">Village(*)</string>
+    <string name="farmer_detail_label12_english"></string>
+    <string name="farmer_detail_label13_english">Field Name</string>
+    <string name="farmer_detail_label14_english">Total Farm Area(Acre)</string>
+    <string name="farmer_detail_label15_english">Rain Fed(Acre)</string>
+    <string name="farmer_detail_label16_english">Irrigated(Acre)</string>
+    <string name="farmer_detail_label17_english">Plantation(Acre)</string>
+    <string name="farmer_detail_label18_english">Fallow(Acre)</string>
+    <string name="farmer_detail_label19_english">Survey No</string>
+    <!--  -->
+    <string name="save_text_english"></string>
+    <string name="save_text_kanada"></string>
+    <string name="cancel_text_english"></string>
+    <string name="cancel_text_kanada"></string>
+    <string name="clear_text_english"></string>
+    <string name="clear_text_kanada"></string>
+
+    <!-- Soil Mapping -->
+    <string name="soil_mapping_label1_english">Soil Mapping Details</string>
+    <string name="soil_mapping_label2_english">Details</string>
+    <string name="soil_mapping_label3_english">Current</string>
+    <string name="soil_mapping_label4_english">Expected</string>
+    <string name="soil_mapping_label5_english">Nitrogen</string>
+    <string name="soil_mapping_label6_english">Phosphorus</string>
+    <string name="soil_mapping_label7_english">Potassium</string>
+    <string name="soil_mapping_label8_english">Recommendations</string>
+    <string name="soil_mapping_btn_recommendation_english">Send Email Recommendation</string>
+    <string name="soil_mapping_label1_kanada">ಮಣ್ಣಿನ ಮ್ಯಾಪಿಂಗ್ ವಿವರಗಳು</string>
+    <string name="soil_mapping_label2_kanada">ವಿವರಗಳು</string>
+    <string name="soil_mapping_label3_kanada">ಪ್ರವಾಹ</string>
+    <string name="soil_mapping_label4_kanada">ನಿರೀಕ್ಷಿತ</string>
+    <string name="soil_mapping_label5_kanada">ಸಾರಜನಕ</string>
+    <string name="soil_mapping_label6_kanada">ರಂಜಕ</string>
+    <string name="soil_mapping_label7_kanada">ಲೋಹದಂಥ ಮೂಲವಸ್ತು</string>
+    <string name="soil_mapping_label8_kanada">ಶಿಫಾರಸುಗಳು</string>
+    <string name="soil_mapping_btn_recommendation_kanada">ಇಮೇಲ್ ಶಿಫಾರಸು ಕಳುಹಿಸಿ</string>
+
+    <!-- Add Field -->
+    <string name="field_detail_label0_english">Farm Details</string>
+    <string name="field_detail_label0_kanada">ಫಾರ್ಮ್ ವಿವರಗಳು</string>
+    <string name="field_add_label0_english">Add New Farm</string>
+    <string name="field_add_label1_english">Farm Name*</string>
+    <string name="field_add_label2_english">#Fields</string>
+    <string name="field_add_label3_english">Farm Area(Acres) *</string>
+    <string name="field_add_label4_english">Cultivation Area(Acres) *</string>
+    <string name="field_add_label5_english">Crop Name *</string>
+    <string name="field_add_label6_english">Crop Variety</string>
+    <string name="field_add_label7_english">Farm Village*</string>
+    <string name="field_add_label8_english">Year *</string>
+    <string name="field_add_label8_kanada">ವರ್ಷ *</string>
+    <string name="field_add_label9_english">Season *</string>
+    <string name="field_add_label9_kanada">ಸೀಸನ್</string>
+    <string name="field_add_label10_english">Survey#</string>
+    <string name="field_add_label10_kanada">ಸರ್ವೆ#</string>
+    <string name="field_add_label11_english">Sowing Date *</string>
+    <string name="field_add_label11_kanada">ದಿನಾಂಕ ಬಿತ್ತನ *</string>
+    <string name="field_add_label12_english">Seed Rate(kg/ha)</string>
+    <string name="field_add_label12_kanada">ಬೀಜ ದರ (ಕೆಜಿ / ಹೆ)</string>
+    <string name="field_add_label13_english">Seed Source</string>
+    <string name="field_add_label13_kanada">ಬೀಜ ಮೂಲ</string>
+    <string name="field_add_label14_english">(IN KGS)Fertilizers Used</string>
+    <string name="field_add_label14_kanada">ಬಳಕೆಯಾಗುವ ರಸಗೊಬ್ಬರಗಳು</string>
+    <string name="field_add_label15_english">Urea</string>
+    <string name="field_add_label15_kanada">ಯೂರಿಯ</string>
+    <string name="field_add_label16_english">DAP</string>
+    <string name="field_add_label16_kanada">ಡಿಎಪಿ</string>
+    <string name="field_add_label17_english">Potash</string>
+    <string name="field_add_label17_kanada">ಸಸ್ಯಕ್ಷಾರ</string>
+    <string name="field_add_label18_english">Complex</string>
+    <string name="field_add_label18_kanada">ಸಂಕೀರ್ಣ</string>
+    <string name="field_add_label19_english">Zinc Sulphate</string>
+    <string name="field_add_label19_kanada">ಸತುವಿನ ಸಲ್ಫೇಟ್</string>
+    <string name="field_add_label20_english">Borax</string>
+    <string name="field_add_label20_kanada">ಬಳೆಗಾರ</string>
+    <string name="field_add_label21_english">Gypsum</string>
+    <string name="field_add_label21_kanada">ಜಿಪ್ಸಮ್</string>
+    <string name="field_add_label22_english">Govt. Subsidy For Inputs</string>
+    <string name="field_add_label22_kanada">ಸರ್ಕಾರ. ಒಳಹರಿವು ಸಬ್ಸಿಡಿ</string>
+    <string name="field_add_label23_english">Photograph of field with farmer</string>
+    <string name="field_add_label23_kanada">ರೈತ ಕ್ಷೇತ್ರ ಛಾಯಾಚಿತ್ರ</string>
+    <string name="field_detail_edit_field_english"></string>
+    <string name="field_add_label0_kanada">ನ್ಯೂ ಫಾರ್ಮ್ ಸೇರಿಸಿ</string>
+    <string name="field_add_label1_kanada">ಫಾರ್ಮ್ ಹೆಸರ*ು</string>
+    <string name="field_add_label2_kanada">#ಜಾಗ</string>
+    <string name="field_add_label3_kanada">ಫಾರ್ಮ್ ಪ್ರದೇಶ(ಎಕರೆ)*</string>
+    <string name="field_add_label4_kanada">ಕೃಷಿ ಪ್ರದೇಶ(ಎಕರೆ)*</string>
+    <string name="field_add_label5_kanada">ಬೆಳೆ ಹೆಸರ*ು</string>
+    <string name="field_add_label6_kanada">ಬೆಳೆ ವೆರೈಟಿ</string>
+    <string name="field_add_label7_kanada">ಫಾರ್ಮ್ ವಿಲೇಜ*್</string>
+    <string name="field_detail_edit_field_kanada"></string>
+    <!-- Package of Practices -->
+    <string name="package_of_practices_label0_kanada">ಬೆಳೆ ಆರಿಸಿ</string>
+    <string name="package_of_practices_label0_english">Choose Crop</string>
+
+    <!-- Search Farmer -->
+    <string name="search_farmer_label1_english">Search Farmer</string>
+    <string name="search_farmer_label2_english">Farmer Name</string>
+    <string name="search_farmer_label3_english">Last Name</string>
+    <string name="search_farmer_label4_english">Village</string>
+    <string name="search_farmer_add_english"></string>
+    <string name="search_farmer_search_english"></string>
+    <string name="search_farmer_label1_kanada">ಹುಡುಕಾಟ ಫಾರ್ಮರ್</string>
+    <string name="search_farmer_label2_kanada">ಫಾರ್ಮರ್ ಹೆಸರು</string>
+    <string name="search_farmer_label3_kanada">ಕೊನೆಯ ಹೆಸರು</string>
+    <string name="search_farmer_label4_kanada">ಗ್ರಾಮ</string>
+    <string name="search_farmer_add_kanada"></string>
+    <string name="search_farmer_search_kanada"></string>
+    <string name="farm_on_googlemap_label0_english">Farm On Google Map</string>
+    <string name="farm_on_googlemap_label0_kanada">ಗೂಗಲ್ ಮ್ಯಾಪ್ನಲ್ಲಿ ಫಾರ್ಮ್</string>
+
+    <string-array name="field_visit_array">
+        <item>Farmer Field Visit</item>
+    </string-array>
+    <string-array name="field_visit_array1">
+        <item>Other Visit</item>
+    </string-array>
+    <string-array name="farmer_field_visit_array">
+        <item>Select Purpose</item>
+        <item>Pre-sowing Visit</item>
+        <item>On-request Visit</item>
+        <item>On-season Visit</item>
+        <item>Pre-harvest Visit</item>
+    </string-array>
+    <string-array name="other_visit_array">
+        <item>Select Purpose</item>
+        <item>Watershed</item>
+        <item>Meeting</item>
+        <item>Other</item>
+    </string-array>
+
+</resources>

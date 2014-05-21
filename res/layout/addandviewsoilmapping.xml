@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#e5eeff">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="#254117" >
+
+        <TextView
+            android:id="@+id/label1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:text=" Soil Mapping Details"
+            android:textColor="#FFFFFF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" >
+
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp" 
+                android:background="@drawable/save"/>
+
+            <Button
+                android:id="@+id/cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="28dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/cancel" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="10dp"
+        android:background="#F79F81"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/label2"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Deails"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/label3"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Current"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:id="@+id/label4"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Expected"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/label5"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Nitrogen"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/editNitrogenCurrent"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editNitrogenExpected"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/label6"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Phosphrus"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/editPhosphrusCurrent"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editPhosphrusExpected"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/label7"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Potassium"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <EditText
+            android:id="@+id/editPotassiumCurrent"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:singleLine="true" />
+
+        <EditText
+            android:id="@+id/editPotassiumExpected"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:hint="0"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/label8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="500dp"
+                android:text="Recommendations"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <Button
+                android:id="@+id/sendMailRecommendation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send Email Recommendation" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/recommendations"
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dip"
+            android:gravity="top"
+            android:hint="Add Soil Mapping Recommendations"
+            android:lines="5"
+            android:singleLine="false" />
+    </LinearLayout>
+
+</LinearLayout>

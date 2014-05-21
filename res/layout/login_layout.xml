@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/home_bg"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:layout_below="@+id/logo"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/sign_in_box"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/user_name_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="User Name"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/user_name"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:hint="Enter Email Id"
+                android:singleLine="true"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/password_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:password="true"
+                android:singleLine="true"
+                android:typeface="serif" />
+
+            <TextView
+                android:id="@+id/language_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Language"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:typeface="serif" />
+
+            <Spinner
+                android:id="@+id/language"
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/language_array"
+                android:typeface="serif" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/login"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:onClick="login"
+                    android:text="login" />
+
+                <Button
+                    android:id="@+id/cancel"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="cancel" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtHello"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/logo"
+        android:layout_marginBottom="29dp"
+        android:layout_marginLeft="113dp"
+        android:layout_toRightOf="@+id/logo"
+        android:background="#000000"
+        android:ellipsize="marquee"
+        android:visibility="gone"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="Hello guy! Welcome to gabrielbl.com! Nice to meet you! I&apos;m Vietnames!"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
